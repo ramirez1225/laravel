@@ -18,7 +18,7 @@ class Articulos extends Migration
             $table->string('articulo');
             $table->unsignedBigInteger('comentario');
             $table->foreign('comentario')->references('id')->on('comentarios');
-
+            
             $table->timestamps();
         });
     }

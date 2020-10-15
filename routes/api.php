@@ -29,5 +29,6 @@ Route::get('ayon','wos\arjon@mayela');
 
 Route::get('articulos/{Id}/comentarios','ComentariosController@soso');
 
+Route::get('articulos/jazmin','ComentariosController@rube');
 
 
